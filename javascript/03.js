@@ -1,0 +1,10 @@
+let  date=new Date();
+console.log(date);
+console.log('Year ' +date.getFullYear());
+console.log('month' +date.getMonth());
+console.log('Date ' +date.getDate());
+console.log('Day' +date.getDay());
+console.log('Date And time ' +date.toLocaleString());
+console.log('full date ' +date.toLocaleTimeString());
+let date2=new Date('2013-12-2');
+console.log(date2.toLocaleDateString());
